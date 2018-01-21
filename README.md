@@ -4,7 +4,7 @@ The project shows, how we can use exemplary pretrained model in Lasagne [Incepti
 
 ##  Data preparation
 
-We make use of tools provided in [Improved GAN] (https://github.com/openai/improved-gan]) project. The data can be downloaded from the source or from a given path. The data gathering process can be tested using `test_data.py` script.
+We make use of tools provided in [Improved GAN](https://github.com/openai/improved-gan]) project. The data can be downloaded from the source or from a given path. The data gathering process can be tested using `test_data.py` script.
 
 The random plots of the images can be obtained using `plot_cifar10.py`:
  
@@ -58,7 +58,7 @@ According to model selection procedure we select hyperparameter 'C' equal **64.0
 
 ## Inceptionv3 feature extraction
 
-Next, we apply [Inceptionv3] (https://github.com/Lasagne/Recipes/blob/master/modelzoo/inception_v3.py]) as a feature extractor. The feature extraction functionality is performed by `extract_inception.py`. In the script we can specify the layer, from which the features are going to be extracted. In our experiments we concentrate on using the penultimate layer just before the soft-max layer with class probabilities. The extracted features for the considered examples are serialised in files `cifar_train_x.npz` and `cifar_test_x.npz`. 
+Next, we apply [Inceptionv3](https://github.com/Lasagne/Recipes/blob/master/modelzoo/inception_v3.py]) as a feature extractor. The feature extraction functionality is performed by `extract_inception.py`. In the script we can specify the layer, from which the features are going to be extracted. In our experiments we concentrate on using the penultimate layer just before the soft-max layer with class probabilities. The extracted features for the considered examples are serialised in files `cifar_train_x.npz` and `cifar_test_x.npz`. 
 
 The visualised features in 2D are as follows:
 
@@ -103,7 +103,7 @@ The accuracy on test set is equal **90.73%**.
 
 ## Triplet-based feature extraction
 
-Instead of evaluating the quality of other layers of Inceptionv3 model, we propose feature extraction procedure that make use of so-called triplet learning. The idea is to transform the representation obtained from the pretrained model to the representation fine-tuned to the particular dataset. It can be achieved by training small neural network using so-called triplet loss. The procedure of training feature extractor using triplet approach can be performed by executing script `triplet_tuning.py`. By setting `l_type = 'L2'` we use the loss function from [here] (https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf), otherwise the loss function from [here] (https://arxiv.org/abs/1704.02227) is used. The number of neurons are specified in `setting` vector (last value stays behind the number of features).
+Instead of evaluating the quality of other layers of Inceptionv3 model, we propose feature extraction procedure that make use of so-called triplet learning. The idea is to transform the representation obtained from the pretrained model to the representation fine-tuned to the particular dataset. It can be achieved by training small neural network using so-called triplet loss. The procedure of training feature extractor using triplet approach can be performed by executing script `triplet_tuning.py`. By setting `l_type = 'L2'` we use the loss function from [here](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf), otherwise the loss function from [here](https://arxiv.org/abs/1704.02227) is used. The number of neurons are specified in `setting` vector (last value stays behind the number of features).
   
 In the first case we can visualise the quality of representation after triplet-based fine-tuning:
 
