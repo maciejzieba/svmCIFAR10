@@ -1,6 +1,6 @@
 # Classification of CIFAR10 using pretrained feature extractor and SVM model
 
-The project shows, how we can use exemplary pretrained model in Lasagne [Inceptionv3] (https://github.com/Lasagne/Recipes/blob/master/modelzoo/inception_v3.py]) as a feature extractor. The model should be downloaded from [here] (https://s3.amazonaws.com/lasagne/recipes/pretrained/imagenet/inception_v3.pkl) and included in project. The extracted features are further used to train SVM model with linear kernel. 
+The project shows, how we can use exemplary pretrained model in Lasagne [Inceptionv3](https://github.com/Lasagne/Recipes/blob/master/modelzoo/inception_v3.py]) as a feature extractor. The model should be downloaded from [here](https://s3.amazonaws.com/lasagne/recipes/pretrained/imagenet/inception_v3.pkl) and included in project. The extracted features are further used to train SVM model with linear kernel. 
 
 ##  Data preparation
 
