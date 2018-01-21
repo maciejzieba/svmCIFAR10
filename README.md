@@ -26,31 +26,31 @@ The results for HOG + linear SVM are presented below:
 log2c= -18.00	rate=26.992 <br />
 log2c= -17.00	rate=27.578 <br />
 log2c= -16.00	rate=28.652 <br />
-log2c= -15.00	rate=30.132
-log2c= -14.00	rate=32.538
-log2c= -13.00	rate=34.934
-log2c= -12.00	rate=36.582
-log2c= -11.00	rate=38.492
-log2c= -10.00	rate=40.458
-log2c=  -9.00	rate=42.496
-log2c=  -8.00	rate=44.504
-log2c=  -7.00	rate=46.102
-log2c=  -6.00	rate=47.326
-log2c=  -5.00	rate=48.272
-log2c=  -4.00	rate=49.01
-log2c=  -3.00	rate=49.528
-log2c=  -2.00	rate=50.056
-log2c=  -1.00	rate=50.392
-log2c=   0.00	rate=50.692
-log2c=   1.00	rate=50.978
-log2c=   2.00	rate=51.014
-log2c=   3.00	rate=51.19
-log2c=   4.00	rate=51.238
-log2c=   5.00	rate=51.248
-log2c=   6.00	rate=51.256
-log2c=   7.00	rate=51.256
-log2c=   8.00	rate=51.256
-log2c=   9.00	rate=51.256
+log2c= -15.00	rate=30.132 <br />
+log2c= -14.00	rate=32.538 <br />
+log2c= -13.00	rate=34.934 <br />
+log2c= -12.00	rate=36.582 <br />
+log2c= -11.00	rate=38.492 <br />
+log2c= -10.00	rate=40.458 <br />
+log2c=  -9.00	rate=42.496 <br />
+log2c=  -8.00	rate=44.504 <br />
+log2c=  -7.00	rate=46.102 <br />
+log2c=  -6.00	rate=47.326 <br />
+log2c=  -5.00	rate=48.272 <br />
+log2c=  -4.00	rate=49.01 <br />
+log2c=  -3.00	rate=49.528 <br />
+log2c=  -2.00	rate=50.056 <br />
+log2c=  -1.00	rate=50.392 <br />
+log2c=   0.00	rate=50.692 <br />
+log2c=   1.00	rate=50.978 <br />
+log2c=   2.00	rate=51.014 <br />
+log2c=   3.00	rate=51.19 <br />
+log2c=   4.00	rate=51.238 <br />
+log2c=   5.00	rate=51.248 <br />
+log2c=   6.00	rate=51.256 <br />
+log2c=   7.00	rate=51.256 <br />
+log2c=   8.00	rate=51.256 <br />
+log2c=   9.00	rate=51.256 <br />
 
 Best C = 64.000000  CV accuracy = 51.256%
 
@@ -66,37 +66,37 @@ The visualised features in 2D are as follows:
 
 In the next step we perform model selection procedure for the extracted data:
 
-log2c= -27.00	rate=66.78
-log2c= -26.00	rate=69.786
-log2c= -25.00	rate=73.828
-log2c= -24.00	rate=77.626
-log2c= -23.00	rate=80.542
-log2c= -22.00	rate=81.812
-log2c= -21.00	rate=82.67
-log2c= -20.00	rate=83.406
-log2c= -19.00	rate=84.312
-log2c= -18.00	rate=85.17
-log2c= -17.00	rate=86.086
-log2c= -16.00	rate=86.93
-log2c= -15.00	rate=87.814
-log2c= -14.00	rate=88.524
-log2c= -13.00	rate=89.118
-log2c= -12.00	rate=89.672
-log2c= -11.00	rate=90.17
-log2c= -10.00	rate=90.236
-log2c=  -9.00	rate=90.862
-log2c=  -8.00	rate=90.91
-log2c=  -7.00	rate=90.938
-log2c=  -6.00	rate=90.994
-log2c=  -5.00	rate=91.002
-log2c=  -4.00	rate=90.948
-log2c=  -3.00	rate=90.934
-log2c=  -2.00	rate=90.934
-log2c=  -1.00	rate=90.934
-log2c=   0.00	rate=90.936
-log2c=   1.00	rate=90.936
-log2c=   2.00	rate=90.936
-log2c=   3.00	rate=90.936
+log2c= -27.00	rate=66.78 <br />
+log2c= -26.00	rate=69.786 <br /> 
+log2c= -25.00	rate=73.828 <br />
+log2c= -24.00	rate=77.626 <br />
+log2c= -23.00	rate=80.542 <br />
+log2c= -22.00	rate=81.812 <br />
+log2c= -21.00	rate=82.67 <br />
+log2c= -20.00	rate=83.406 <br />
+log2c= -19.00	rate=84.312 <br />
+log2c= -18.00	rate=85.17 <br />
+log2c= -17.00	rate=86.086 <br />
+log2c= -16.00	rate=86.93 <br />
+log2c= -15.00	rate=87.814 <br />
+log2c= -14.00	rate=88.524 <br />
+log2c= -13.00	rate=89.118 <br />
+log2c= -12.00	rate=89.672 <br />
+log2c= -11.00	rate=90.17 <br />
+log2c= -10.00	rate=90.236 <br />
+log2c=  -9.00	rate=90.862 <br />
+log2c=  -8.00	rate=90.91 <br />
+log2c=  -7.00	rate=90.938 <br />
+log2c=  -6.00	rate=90.994 <br />
+log2c=  -5.00	rate=91.002 <br />
+log2c=  -4.00	rate=90.948 <br />
+log2c=  -3.00	rate=90.934 <br />
+log2c=  -2.00	rate=90.934 <br />
+log2c=  -1.00	rate=90.934 <br />
+log2c=   0.00	rate=90.936 <br />
+log2c=   1.00	rate=90.936 <br />
+log2c=   2.00	rate=90.936 <br />
+log2c=   3.00	rate=90.936 <br />
 
 Best C = 0.031250  CV accuracy = 91.002%
 
