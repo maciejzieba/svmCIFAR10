@@ -26,6 +26,7 @@ The results for HOG + linear SVM are presented below:
 |log2c| rate|
 | --- |
 |-18.00	|26.992|
+| --- |
 
 log2c= -17.00	rate=27.578
 
