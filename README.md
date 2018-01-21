@@ -1,6 +1,6 @@
 # Classification of CIFAR10 using pretrained feature extractor and SVM model
 
-The project shows, how we can use exemplary pretrained model in Lasagne [Inceptionv3] (https://github.com/Lasagne/Recipes/blob/master/modelzoo/inception_v3.py]) as a feature extractor. The extracted features are further used to train SVM model with linear kernel. 
+The project shows, how we can use exemplary pretrained model in Lasagne [Inceptionv3] (https://github.com/Lasagne/Recipes/blob/master/modelzoo/inception_v3.py]) as a feature extractor. The model should be downloaded from [here] (https://s3.amazonaws.com/lasagne/recipes/pretrained/imagenet/inception_v3.pkl) and included in project. The extracted features are further used to train SVM model with linear kernel. 
 
 ##  Data preparation
 
@@ -103,7 +103,7 @@ The accuracy on test set is equal **90.73%**.
 
 ## Triplet-based feature extraction
 
-Instead of evaluating the quality of other layers of Inceptionv3 model, we propose feature extraction procedure that make use of so-called triplet learning. The idea is to transform the representation obtained from the pretrained model to the representation fine-tuned to the particular dataset. It can be achieved by training small neural network using so-called triplet loss. The procedure of training feature extractor using triplet approach can be performed by executing script `triplet_tuning.py`. By setting `l_type = 'L2'` we use the loss function from https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf, otherwise the loss function from https://arxiv.org/abs/1704.02227 is used. The number of neurons are specified in `setting` vector (last value stays behind the number of features).
+Instead of evaluating the quality of other layers of Inceptionv3 model, we propose feature extraction procedure that make use of so-called triplet learning. The idea is to transform the representation obtained from the pretrained model to the representation fine-tuned to the particular dataset. It can be achieved by training small neural network using so-called triplet loss. The procedure of training feature extractor using triplet approach can be performed by executing script `triplet_tuning.py`. By setting `l_type = 'L2'` we use the loss function from [here] (https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf), otherwise the loss function from [here] (https://arxiv.org/abs/1704.02227) is used. The number of neurons are specified in `setting` vector (last value stays behind the number of features).
   
 In the first case we can visualise the quality of representation after triplet-based fine-tuning:
 
