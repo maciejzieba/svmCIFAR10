@@ -23,9 +23,9 @@ In the next step we are going to train the linear SVM classifier on the extract 
 
 The results for HOG + linear SVM are presented below:
 
-log2c=  -18.00	rate=26.992 
-log2c= -17.00	rate=27.578
-log2c= -16.00	rate=28.652
+log2c= -18.00	rate=26.992 <br />
+log2c= -17.00	rate=27.578 <br />
+log2c= -16.00	rate=28.652 <br />
 log2c= -15.00	rate=30.132
 log2c= -14.00	rate=32.538
 log2c= -13.00	rate=34.934
