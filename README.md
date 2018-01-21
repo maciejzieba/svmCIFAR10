@@ -24,19 +24,33 @@ In the next step we are going to train the linear SVM classifier on the extract 
 The results for HOG + linear SVM are presented below:
 
 log2c= -18.00 rate=26.992
+
 log2c= -18.00	rate=26.992
+
 log2c= -17.00	rate=27.578
+
 log2c= -16.00	rate=28.652
+
 log2c= -15.00	rate=30.132
+
 log2c= -14.00	rate=32.538
+
 log2c= -13.00	rate=34.934
+
 log2c= -12.00	rate=36.582
+
 log2c= -11.00	rate=38.492
+
 log2c= -10.00	rate=40.458
+
 log2c=  -9.00	rate=42.496
+
 log2c=  -8.00	rate=44.504
+
 log2c=  -7.00	rate=46.102
+
 log2c=  -6.00	rate=47.326
+
 log2c=  -5.00	rate=48.272
 log2c=  -4.00	rate=49.01
 log2c=  -3.00	rate=49.528
@@ -98,6 +112,7 @@ log2c=   0.00	rate=90.936
 log2c=   1.00	rate=90.936
 log2c=   2.00	rate=90.936
 log2c=   3.00	rate=90.936
+
 Best C = 0.031250  CV accuracy = 91.002%
 
 The accuracy on test set is equal **90.73%**. 
