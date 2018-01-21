@@ -52,6 +52,7 @@ log2c=   6.00	rate=51.256
 log2c=   7.00	rate=51.256
 log2c=   8.00	rate=51.256
 log2c=   9.00	rate=51.256
+
 Best C = 64.000000  CV accuracy = 51.256%
 
 According to model selection procedure we select hyperparameter 'C' equal **64.0**. We train the SVM model on entire training data and obtain the accuracy on test set equal **51.43%**.
